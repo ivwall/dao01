@@ -1,0 +1,17 @@
+console.log('Box value is', value.toString());
+const value = await box.retrieve();
+await box.store(23);
+npx hardhat run --network localhost ./scripts/index.js
+console.log('Box value is', value.toString());
+const value = await box.retrieve();
+const box = await Box.attach(address);
+const Box = await ethers.getContractFactory('Box');
+const address = '0x5fbdb2315678afecb367f032d93f642f64180aa3';
+.exit
+console.log(accounts);
+const accounts = await ethers.provider.listAccounts();
+await box.retrieve()
+await box.store(42)
+const box = await Box.attach('0x5FbDB2315678afecb367f032d93F642f64180aa3')
+const Box = await ethers.getContractFactory('Box');
+.help
